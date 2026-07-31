@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter PDF</title>
+</head>
+
+<body style="margin:0;padding:0;background:#fffdfe;font-family:Lato, sans-serif;color:#2d2d2d;">
+    <div data-pdf-root style="width:800px;box-sizing:border-box;padding:48px;background:#fffdfe;">
+        <div
+            style="border:1px solid rgba(232, 180, 200, 0.25);border-radius:24px;background:#fff7fa;padding:36px 36px 30px 36px;box-shadow:0 16px 45px rgba(232, 180, 200, 0.12);">
+            <div
+                style="margin:0 0 10px 0;font-family:'Cormorant Garamond', serif;font-size:34px;line-height:1.1;color:#8b6b7f;">
+                {{TITLE}}</div>
+            <!-- <div style="margin:0 0 24px 0;font-size:12px;letter-spacing:0.25em;text-transform:uppercase;color:#d68fae;">Final Page</div> -->
+            <div style="padding:0 0 0 12px;">{{BODY_HTML}}</div>
+            <div
+                style="margin-top:24px;padding-top:18px;border-top:1px solid rgba(232, 180, 200, 0.22);padding-left:12px;">
+                {{SIGNOFF_HTML}}</div>
+        </div>
+    </div>
+</body>
+
+</html>
